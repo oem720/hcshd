@@ -1,12 +1,12 @@
 
 #include <ShaderCompiler/Core/ShaderCompApplication.hpp>
 
-#include <HellfireControl/Asset/Converters/Shader/GLSLCompiler.hpp>
-#include <HellfireControl/Asset/Converters/Shader/HLSLCompiler.hpp>
-#include <HellfireControl/Asset/Converters/Shader/SlangCompiler.hpp>
+#include <ShaderCompiler/Compiler/GLSLCompiler.hpp>
+#include <ShaderCompiler/Compiler/HLSLCompiler.hpp>
+#include <ShaderCompiler/Compiler/SlangCompiler.hpp>
 
-#include <HellfireControl/Util/Util.hpp>
-#include <HellfireControl/Core/Console.hpp>
+#include <ShaderCompiler/Core/Console.hpp>
+#include <ShaderCompiler/Core/File.hpp>
 
 Array<Unique<ShaderCompiler>> ShaderCompApplication::m_vShaderCompilers;
 

@@ -1,8 +1,8 @@
 #pragma once
 
-#include <HellfireControl/Core/Application.hpp>
+#include <ShaderCompiler/Core/Application.hpp>
 
-#include <HellfireControl/Asset/Converters/Shader/Compiler.hpp>
+#include <ShaderCompiler/Compiler/Compiler.hpp>
 
 class ShaderCompApplication : public Application {
 private:

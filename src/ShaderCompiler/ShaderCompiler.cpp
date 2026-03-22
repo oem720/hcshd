@@ -1,5 +1,4 @@
 
-#include <HellfireControl/Core/Console.hpp>
 
 #include <ShaderCompiler/Core/ShaderCompApplication.hpp>
 
